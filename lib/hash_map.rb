@@ -1,5 +1,5 @@
 class HashMap
-  # attr_accessor :load, :capacity
+  attr_writer :load_factor, :capacity
 
   def initialize
     self.load_factor = nil

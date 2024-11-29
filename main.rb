@@ -1,3 +1,4 @@
-def array_restriction
-  raise IndexError if index.negative? || index >= @buckets.length
-end
+require_relative 'lib/hash_map'
+require_relative 'lib/hash_set'
+
+hash_map = HashMap.new
