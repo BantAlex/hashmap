@@ -21,6 +21,7 @@ class HashMap
   end
 
   def set(key,value)
+    hashed = self.hash(key)
 
   end
 
