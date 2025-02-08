@@ -1,5 +1,4 @@
 class HashMap
-  # attr_writer :load_factor, :capacity, :length, :buckets, :index
 
   def initialize
     @load_factor = nil
